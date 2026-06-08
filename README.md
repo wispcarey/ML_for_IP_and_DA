@@ -6,6 +6,12 @@ The textbook arXiv page is <https://arxiv.org/abs/2410.10523>. Chapter and secti
 
 These notebooks may contain small mistakes. If you find an issue, please contact bhchen@caltech.edu.
 
+## Colab Runtime Recommendation
+
+When opening these demos in Google Colab, we recommend using a high-RAM runtime
+with a GPU accelerator. A standard T4 or L4 GPU is sufficient for the intended
+interactive experiments.
+
 ## Demo Index
 
 ### Basic Machine Learning Pipeline
@@ -17,7 +23,7 @@ These notebooks may contain small mistakes. If you find an issue, please contact
   functions, optimizer setup, training loops, checkpoint reuse, and diagnostics.
   It uses a chirp regression problem to compare learning settings and an MNIST
   CNN with UMAP visualizations to diagnose learned high-dimensional features.
-- Colab: [Open in Colab](TODO_COLAB_LINK)
+- Colab: [Open in Colab](https://colab.research.google.com/drive/1jAodLsZ_XobAR30MN4BGTtI_We15jNZ9)
 
 ### Introduction to Bayesian Inverse Problems
 
@@ -29,7 +35,7 @@ These notebooks may contain small mistakes. If you find an issue, please contact
   then illustrates typical subproblems and methods: scalar linear and nonlinear
   inverse problems, multimodal posteriors, empirical-prior MNIST inpainting, and
   total-variation MAP reconstruction for image denoising and deblurring.
-- Colab: [Open in Colab](TODO_COLAB_LINK)
+- Colab: [Open in Colab](https://colab.research.google.com/drive/1dGCgQBF3gmauyGypUyJL76Yz3RDj24Ky)
 
 ### Classical Posterior Sampling
 
@@ -41,7 +47,7 @@ These notebooks may contain small mistakes. If you find an issue, please contact
   Metropolis with burn-in and proposal-scale diagnostics, and ensemble Kalman
   inversion as a derivative-free ensemble method that can collapse toward a
   data-fitting consensus.
-- Colab: [Open in Colab](TODO_COLAB_LINK)
+- Colab: [Open in Colab](https://colab.research.google.com/drive/1OyEJ7Ra-vjGUChF5MtFr_bjMyYdPS9W_)
 
 ### Variational Posterior Approximation
 
@@ -52,7 +58,7 @@ These notebooks may contain small mistakes. If you find an issue, please contact
   estimation as a point-estimate baseline, then compares mean-field and
   full-covariance Gaussian variational inference with a RealNVP transport-map
   variational approximation for a fixed observation.
-- Colab: [Open in Colab](TODO_COLAB_LINK)
+- Colab: [Open in Colab](https://colab.research.google.com/drive/1vPwyV9rRKC3BhVhYXpCpmocnm1ufUcgC)
 
 ### Amortized Posterior Sampling
 
@@ -64,7 +70,7 @@ These notebooks may contain small mistakes. If you find an issue, please contact
   based on *Amortized Energy-Based Bayesian Inference*. Both methods reuse one
   trained conditional map to generate approximate posterior samples for
   low-signal, standard, and high-signal observations without retraining.
-- Colab: [Open in Colab](TODO_COLAB_LINK)
+- Colab: [Open in Colab](https://colab.research.google.com/drive/12owpoYIrz1znwMoIjtfDOLlqaWbTO5Y8)
 
 ### Introduction to Data Assimilation and the Kalman Filter
 
@@ -75,7 +81,7 @@ These notebooks may contain small mistakes. If you find an issue, please contact
   Kalman update from predictive moments, the affine analysis-map viewpoint with
   a reference to <https://arxiv.org/abs/2209.11371>, and the original Kalman
   tracking experiment with full and partial observations.
-- Colab: [Open in Colab](TODO_COLAB_LINK)
+- Colab: [Open in Colab](https://colab.research.google.com/drive/1NrKztxYKQr3uNIsrs1ihStqKiAEjRSQr)
 
 ### Particle Filters for Data Assimilation
 
@@ -86,7 +92,7 @@ These notebooks may contain small mistakes. If you find an issue, please contact
   keeps the sequential importance sampling formulas explicit and uses RMSE
   diagnostics to show how proposal choice, particle count, observation noise,
   and initialization affect filtering performance.
-- Colab: [Open in Colab](TODO_COLAB_LINK)
+- Colab: [Open in Colab](https://colab.research.google.com/drive/1-qvMPLGsew1lIz-f9IcHlFITyQukDEJr)
 
 ### Ensemble Kalman Filters for Data Assimilation
 
@@ -96,7 +102,7 @@ These notebooks may contain small mistakes. If you find an issue, please contact
   updates on the shared linear Gaussian and Lorenz-63 filtering testbeds. It
   emphasizes ensemble covariance estimates, perturbed-observation versus
   square-root analysis updates, post-analysis inflation, and RMSE diagnostics.
-- Colab: [Open in Colab](TODO_COLAB_LINK)
+- Colab: [Open in Colab](https://colab.research.google.com/drive/1ISyHB28bmIgtvK38jQ79zfGLxf0VJShq)
 
 ### Lorenz-63 Parameter Estimation
 
@@ -110,7 +116,7 @@ These notebooks may contain small mistakes. If you find an issue, please contact
   prior, MAP objective, Laplace approximation, and augmented-state EnKF
   equations explicit, then compares MCMC posterior samples, a MAP-Laplace
   approximation, and an augmented EnKF parameter ensemble on the same data.
-- Colab: [Open in Colab](TODO_COLAB_LINK)
+- Colab: [Open in Colab](https://colab.research.google.com/drive/1wibgSvt8u8WkkoB7BpXTABsnrYke5PVD)
 
 ### Learning Model Error with MCEM and ADKF
 
@@ -124,7 +130,7 @@ These notebooks may contain small mistakes. If you find an issue, please contact
   approximate smoothing samples and covariance updates, with an
   auto-differentiable Kalman-filter likelihood objective for learning model
   parameters from partial noisy observations.
-- Colab: [Open in Colab](TODO_COLAB_LINK)
+- Colab: [Open in Colab](https://colab.research.google.com/drive/1xXR_OlrvXsyRT-zvM9f5Mj9D2WBpUO6M)
 
 ### Lorenz-96 Localized EnKF and Learned Regularization
 
@@ -137,7 +143,7 @@ These notebooks may contain small mistakes. If you find an issue, please contact
   Gaspari-Cohn tapering, and multiplicative inflation, then learns the
   regularization parameters `theta_reg = {alpha, r}` by minimizing
   supervised filtering RMSE over training trajectories.
-- Colab: [Open in Colab](TODO_COLAB_LINK)
+- Colab: [Open in Colab](https://colab.research.google.com/drive/1ArJ_bGZA_W2uMz9u7UffdDLDnAQSXy2v)
 
 ### Variational Filtering with a Learned Gain
 
@@ -151,7 +157,7 @@ These notebooks may contain small mistakes. If you find an issue, please contact
   filtering objective, learned-gain analysis update, covariance update, and RMSE
   diagnostic explicit, then compares the learned gain with a fixed baseline
   gain.
-- Colab: [Open in Colab](TODO_COLAB_LINK)
+- Colab: [Open in Colab](https://colab.research.google.com/drive/1hs_07RytdlbEGhvp5VkdZfOPeHY9vuLZ)
 
 ### Likelihood-Free Ensemble Transport Filtering
 
@@ -165,7 +171,7 @@ These notebooks may contain small mistakes. If you find an issue, please contact
   energy-distance residual transport map with a maximum-likelihood conditional
   composed map, showing how each learned map turns forecast particles and a true
   observation into an approximate analysis ensemble.
-- Colab: [Open in Colab](TODO_COLAB_LINK)
+- Colab: [Open in Colab](https://colab.research.google.com/drive/1DOVWUsbIbVav4k8VK2wzAnL2wUVDsvlg)
 
 ### Filtering Visualization on the Doubling Map
 
@@ -178,4 +184,4 @@ These notebooks may contain small mistakes. If you find an issue, please contact
   ensembles through posterior snapshots, circular means, and time-density
   heatmaps, illustrating why distributional plots can reveal multimodality that
   point estimates hide.
-- Colab: [Open in Colab](TODO_COLAB_LINK)
+- Colab: [Open in Colab](https://colab.research.google.com/drive/1TkBoChaQ8jHDl9ksCLuewG-gJTjgRxfg)
