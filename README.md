@@ -14,7 +14,7 @@ interactive experiments.
 
 ## Demo Index
 
-### Basic Machine Learning Pipeline
+### 1. Basic Machine Learning Pipeline
 
 - Notebook: `Demos/Basic_Machine_Learning_Pipeline.ipynb`
 - Textbook reference: Chapter 12, Section 12.1: Notational Conventions; Chapter 12, Section 12.2: Neural Networks; Chapter 15, Section 15.1: Gradient Descent
@@ -25,7 +25,7 @@ interactive experiments.
   CNN with UMAP visualizations to diagnose learned high-dimensional features.
 - Colab: [Open in Colab](https://colab.research.google.com/drive/1jAodLsZ_XobAR30MN4BGTtI_We15jNZ9)
 
-### Introduction to Bayesian Inverse Problems
+### 2. Introduction to Bayesian Inverse Problems
 
 - Notebook: `Demos/Introduction_To_Bayesian_Inverse_Problems.ipynb`
 - Textbook reference: Chapter 1, Section 1.1: Bayesian Inversion; Chapter 3, Section 3.4.2: Empirical Approximation Of The Prior
@@ -37,7 +37,7 @@ interactive experiments.
   total-variation MAP reconstruction for image denoising and deblurring.
 - Colab: [Open in Colab](https://colab.research.google.com/drive/1dGCgQBF3gmauyGypUyJL76Yz3RDj24Ky)
 
-### Classical Posterior Sampling
+### 3. Classical Posterior Sampling
 
 - Notebook: `Demos/Classical_Posterior_Sampling.ipynb`
 - Textbook reference: Chapter 1, Section 1.2.2: Posterior Expectations; Chapter 15, Section 15.3: Ensemble Kalman Inversion; Chapter 15, Section 15.5: Markov Chain Monte Carlo
@@ -49,7 +49,7 @@ interactive experiments.
   data-fitting consensus.
 - Colab: [Open in Colab](https://colab.research.google.com/drive/1OyEJ7Ra-vjGUChF5MtFr_bjMyYdPS9W_)
 
-### Variational Posterior Approximation
+### 4. Variational Posterior Approximation
 
 - Notebook: `Demos/Variational_Posterior_Approximation.ipynb`
 - Textbook reference: Chapter 1, Section 1.2.1: Maximum A Posteriori Estimator; Chapter 2: Variational Inference; Chapter 4: Transport To The Posterior; Chapter 13, Section 13.3: Normalizing Flows
@@ -60,7 +60,7 @@ interactive experiments.
   variational approximation for a fixed observation.
 - Colab: [Open in Colab](https://colab.research.google.com/drive/1vPwyV9rRKC3BhVhYXpCpmocnm1ufUcgC)
 
-### Amortized Posterior Sampling
+### 5. Amortized Posterior Sampling
 
 - Notebook: `Demos/Amortized_Posterior_Sampling.ipynb`
 - Textbook reference: Chapter 4: Transport To The Posterior; Chapter 5, Section 5.4: Likelihood-Based Inference; Chapter 5, Section 5.5: Likelihood-Free Inference; Chapter 11, Section 11.1.5: Maximum Mean Discrepancy And Energy Distance; Chapter 13, Section 13.3: Normalizing Flows
@@ -72,7 +72,7 @@ interactive experiments.
   low-signal, standard, and high-signal observations without retraining.
 - Colab: [Open in Colab](https://colab.research.google.com/drive/12owpoYIrz1znwMoIjtfDOLlqaWbTO5Y8)
 
-### Introduction to Data Assimilation and the Kalman Filter
+### 6. Introduction to Data Assimilation and the Kalman Filter
 
 - Notebook: `Demos/Introduction_To_DA_And_Kalman_Filter.ipynb`
 - Textbook reference: Chapter 6, Section 6.2: Formulation Of Data Assimilation; Chapter 6, Section 6.3.1: Kalman Filter
@@ -83,7 +83,7 @@ interactive experiments.
   tracking experiment with full and partial observations.
 - Colab: [Open in Colab](https://colab.research.google.com/drive/1NrKztxYKQr3uNIsrs1ihStqKiAEjRSQr)
 
-### Particle Filters for Data Assimilation
+### 7. Particle Filters for Data Assimilation
 
 - Notebook: `Demos/Particle_Filters_For_Data_Assimilation.ipynb`
 - Textbook reference: Chapter 6, Section 6.3.6: Bootstrap Particle Filter; Chapter 6, Section 6.3.7: Optimal Particle Filter; Chapter 6, Section 6.3.8: Evaluating Probabilistic Estimation
@@ -94,7 +94,7 @@ interactive experiments.
   and initialization affect filtering performance.
 - Colab: [Open in Colab](https://colab.research.google.com/drive/1-qvMPLGsew1lIz-f9IcHlFITyQukDEJr)
 
-### Ensemble Kalman Filters for Data Assimilation
+### 8. Ensemble Kalman Filters for Data Assimilation
 
 - Notebook: `Demos/Ensemble_Kalman_Filters.ipynb`
 - Textbook reference: Chapter 6, Section 6.3.5: Ensemble Kalman Filter
@@ -104,7 +104,7 @@ interactive experiments.
   square-root analysis updates, post-analysis inflation, and RMSE diagnostics.
 - Colab: [Open in Colab](https://colab.research.google.com/drive/1ISyHB28bmIgtvK38jQ79zfGLxf0VJShq)
 
-### Lorenz-63 Parameter Estimation
+### 9. Lorenz-63 Parameter Estimation
 
 - Notebook: `Demos/Lorenz63_Parameter_Estimation.ipynb`
 - Textbook reference: Chapter 1, Section 1.1: Bayesian Inversion; Chapter 1,
@@ -118,7 +118,7 @@ interactive experiments.
   approximation, and an augmented EnKF parameter ensemble on the same data.
 - Colab: [Open in Colab](https://colab.research.google.com/drive/1wibgSvt8u8WkkoB7BpXTABsnrYke5PVD)
 
-### Learning Model Error with MCEM and ADKF
+### 10. Learning Model Error with MCEM and ADKF
 
 - Notebook: `Demos/Learning_Model_Error_With_MCEM_And_ADKF.ipynb`
 - Textbook reference: Chapter 8, Section 8.2: Expectation Maximization; Chapter
@@ -132,7 +132,7 @@ interactive experiments.
   parameters from partial noisy observations.
 - Colab: [Open in Colab](https://colab.research.google.com/drive/1xXR_OlrvXsyRT-zvM9f5Mj9D2WBpUO6M)
 
-### Lorenz-96 Localized EnKF and Learned Regularization
+### 11. Lorenz-96 Localized EnKF and Learned Regularization
 
 - Notebook: `Demos/Lorenz96_Localized_EnKF_And_Learned_Regularization.ipynb`
 - Textbook reference: Chapter 6, Section 6.3.5: Ensemble Kalman Filter; Chapter
@@ -145,7 +145,7 @@ interactive experiments.
   supervised filtering RMSE over training trajectories.
 - Colab: [Open in Colab](https://colab.research.google.com/drive/1ArJ_bGZA_W2uMz9u7UffdDLDnAQSXy2v)
 
-### Variational Filtering with a Learned Gain
+### 12. Variational Filtering with a Learned Gain
 
 - Notebook: `Demos/Variational_Filtering_With_Learned_Gain.ipynb`
 - Textbook reference: Chapter 7, Section 7.2: Variational Formulation Of
@@ -159,7 +159,7 @@ interactive experiments.
   gain.
 - Colab: [Open in Colab](https://colab.research.google.com/drive/1hs_07RytdlbEGhvp5VkdZfOPeHY9vuLZ)
 
-### Likelihood-Free Ensemble Transport Filtering
+### 13. Likelihood-Free Ensemble Transport Filtering
 
 - Notebook: `Demos/Likelihood_Free_Ensemble_Transport_Filtering.ipynb`
 - Textbook reference: Chapter 10, Section 10.3.1: Minimizing The Energy
@@ -173,7 +173,7 @@ interactive experiments.
   observation into an approximate analysis ensemble.
 - Colab: [Open in Colab](https://colab.research.google.com/drive/1DOVWUsbIbVav4k8VK2wzAnL2wUVDsvlg)
 
-### Filtering Visualization on the Doubling Map
+### 14. Filtering Visualization on the Doubling Map
 
 - Notebook: `Demos/Filtering_Visualization_Doubling_Map.ipynb`
 - Textbook reference: Chapter 6, Section 6.3.6: Bootstrap Particle Filter;
