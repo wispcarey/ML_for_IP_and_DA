@@ -218,6 +218,9 @@ tempCodeRunnerFile.py
 
 # Marimo
 marimo/_static/
+
+# Local backups
+local_backups/
 marimo/_lsp/
 __marimo__/
 

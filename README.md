@@ -23,7 +23,7 @@ interactive experiments.
   functions, optimizer setup, training loops, checkpoint reuse, and diagnostics.
   It uses a chirp regression problem to compare learning settings and an MNIST
   CNN with UMAP visualizations to diagnose learned high-dimensional features.
-- Colab: [Open in Colab](https://colab.research.google.com/drive/1jAodLsZ_XobAR30MN4BGTtI_We15jNZ9)
+- Colab: [Open in Colab](https://colab.research.google.com/github/wispcarey/ML_for_IP_and_DA/blob/main/Demos/Basic_Machine_Learning_Pipeline.ipynb)
 
 ### 2. Introduction to Bayesian Inverse Problems
 
@@ -35,7 +35,7 @@ interactive experiments.
   then illustrates typical subproblems and methods: scalar linear and nonlinear
   inverse problems, multimodal posteriors, empirical-prior MNIST inpainting, and
   total-variation MAP reconstruction for image denoising and deblurring.
-- Colab: [Open in Colab](https://colab.research.google.com/drive/1dGCgQBF3gmauyGypUyJL76Yz3RDj24Ky)
+- Colab: [Open in Colab](https://colab.research.google.com/github/wispcarey/ML_for_IP_and_DA/blob/main/Demos/Introduction_To_Bayesian_Inverse_Problems.ipynb)
 
 ### 3. Classical Posterior Sampling
 
@@ -47,7 +47,7 @@ interactive experiments.
   Metropolis with burn-in and proposal-scale diagnostics, and ensemble Kalman
   inversion as a derivative-free ensemble method that can collapse toward a
   data-fitting consensus.
-- Colab: [Open in Colab](https://colab.research.google.com/drive/1OyEJ7Ra-vjGUChF5MtFr_bjMyYdPS9W_)
+- Colab: [Open in Colab](https://colab.research.google.com/github/wispcarey/ML_for_IP_and_DA/blob/main/Demos/Classical_Posterior_Sampling.ipynb)
 
 ### 4. Variational Posterior Approximation
 
@@ -58,7 +58,7 @@ interactive experiments.
   estimation as a point-estimate baseline, then compares mean-field and
   full-covariance Gaussian variational inference with a RealNVP transport-map
   variational approximation for a fixed observation.
-- Colab: [Open in Colab](https://colab.research.google.com/drive/1vPwyV9rRKC3BhVhYXpCpmocnm1ufUcgC)
+- Colab: [Open in Colab](https://colab.research.google.com/github/wispcarey/ML_for_IP_and_DA/blob/main/Demos/Variational_Posterior_Approximation.ipynb)
 
 ### 5. Amortized Posterior Sampling
 
@@ -70,7 +70,7 @@ interactive experiments.
   based on *Amortized Energy-Based Bayesian Inference*. Both methods reuse one
   trained conditional map to generate approximate posterior samples for
   low-signal, standard, and high-signal observations without retraining.
-- Colab: [Open in Colab](https://colab.research.google.com/drive/12owpoYIrz1znwMoIjtfDOLlqaWbTO5Y8)
+- Colab: [Open in Colab](https://colab.research.google.com/github/wispcarey/ML_for_IP_and_DA/blob/main/Demos/Amortized_Posterior_Sampling.ipynb)
 
 ### 6. Introduction to Data Assimilation and the Kalman Filter
 
@@ -81,7 +81,7 @@ interactive experiments.
   Kalman update from predictive moments, the affine analysis-map viewpoint with
   a reference to <https://arxiv.org/abs/2209.11371>, and the original Kalman
   tracking experiment with full and partial observations.
-- Colab: [Open in Colab](https://colab.research.google.com/drive/1NrKztxYKQr3uNIsrs1ihStqKiAEjRSQr)
+- Colab: [Open in Colab](https://colab.research.google.com/github/wispcarey/ML_for_IP_and_DA/blob/main/Demos/Introduction_To_DA_And_Kalman_Filter.ipynb)
 
 ### 7. Particle Filters for Data Assimilation
 
@@ -92,7 +92,7 @@ interactive experiments.
   keeps the sequential importance sampling formulas explicit and uses RMSE
   diagnostics to show how proposal choice, particle count, observation noise,
   and initialization affect filtering performance.
-- Colab: [Open in Colab](https://colab.research.google.com/drive/1-qvMPLGsew1lIz-f9IcHlFITyQukDEJr)
+- Colab: [Open in Colab](https://colab.research.google.com/github/wispcarey/ML_for_IP_and_DA/blob/main/Demos/Particle_Filters_For_Data_Assimilation.ipynb)
 
 ### 8. Ensemble Kalman Filters for Data Assimilation
 
@@ -102,7 +102,7 @@ interactive experiments.
   updates on the shared linear Gaussian and Lorenz-63 filtering testbeds. It
   emphasizes ensemble covariance estimates, perturbed-observation versus
   square-root analysis updates, post-analysis inflation, and RMSE diagnostics.
-- Colab: [Open in Colab](https://colab.research.google.com/drive/1ISyHB28bmIgtvK38jQ79zfGLxf0VJShq)
+- Colab: [Open in Colab](https://colab.research.google.com/github/wispcarey/ML_for_IP_and_DA/blob/main/Demos/Ensemble_Kalman_Filters.ipynb)
 
 ### 9. Lorenz-63 Parameter Estimation
 
@@ -116,7 +116,7 @@ interactive experiments.
   prior, MAP objective, Laplace approximation, and augmented-state EnKF
   equations explicit, then compares MCMC posterior samples, a MAP-Laplace
   approximation, and an augmented EnKF parameter ensemble on the same data.
-- Colab: [Open in Colab](https://colab.research.google.com/drive/1wibgSvt8u8WkkoB7BpXTABsnrYke5PVD)
+- Colab: [Open in Colab](https://colab.research.google.com/github/wispcarey/ML_for_IP_and_DA/blob/main/Demos/Lorenz63_Parameter_Estimation.ipynb)
 
 ### 10. Learning Model Error with MCEM and ADKF
 
@@ -130,7 +130,7 @@ interactive experiments.
   approximate smoothing samples and covariance updates, with an
   auto-differentiable Kalman-filter likelihood objective for learning model
   parameters from partial noisy observations.
-- Colab: [Open in Colab](https://colab.research.google.com/drive/1xXR_OlrvXsyRT-zvM9f5Mj9D2WBpUO6M)
+- Colab: [Open in Colab](https://colab.research.google.com/github/wispcarey/ML_for_IP_and_DA/blob/main/Demos/Learning_Model_Error_With_MCEM_And_ADKF.ipynb)
 
 ### 11. Lorenz-96 Localized EnKF and Learned Regularization
 
@@ -143,7 +143,7 @@ interactive experiments.
   Gaspari-Cohn tapering, and multiplicative inflation, then learns the
   regularization parameters `theta_reg = {alpha, r}` by minimizing
   supervised filtering RMSE over training trajectories.
-- Colab: [Open in Colab](https://colab.research.google.com/drive/1ArJ_bGZA_W2uMz9u7UffdDLDnAQSXy2v)
+- Colab: [Open in Colab](https://colab.research.google.com/github/wispcarey/ML_for_IP_and_DA/blob/main/Demos/Lorenz96_Localized_EnKF_And_Learned_Regularization.ipynb)
 
 ### 12. Variational Filtering with a Learned Gain
 
@@ -157,7 +157,7 @@ interactive experiments.
   filtering objective, learned-gain analysis update, covariance update, and RMSE
   diagnostic explicit, then compares the learned gain with a fixed baseline
   gain.
-- Colab: [Open in Colab](https://colab.research.google.com/drive/1hs_07RytdlbEGhvp5VkdZfOPeHY9vuLZ)
+- Colab: [Open in Colab](https://colab.research.google.com/github/wispcarey/ML_for_IP_and_DA/blob/main/Demos/Variational_Filtering_With_Learned_Gain.ipynb)
 
 ### 13. Likelihood-Free Ensemble Transport Filtering
 
@@ -171,7 +171,7 @@ interactive experiments.
   energy-distance residual transport map with a maximum-likelihood conditional
   composed map, showing how each learned map turns forecast particles and a true
   observation into an approximate analysis ensemble.
-- Colab: [Open in Colab](https://colab.research.google.com/drive/1DOVWUsbIbVav4k8VK2wzAnL2wUVDsvlg)
+- Colab: [Open in Colab](https://colab.research.google.com/github/wispcarey/ML_for_IP_and_DA/blob/main/Demos/Likelihood_Free_Ensemble_Transport_Filtering.ipynb)
 
 ### 14. Filtering Visualization on the Doubling Map
 
@@ -184,4 +184,4 @@ interactive experiments.
   ensembles through posterior snapshots, circular means, and time-density
   heatmaps, illustrating why distributional plots can reveal multimodality that
   point estimates hide.
-- Colab: [Open in Colab](https://colab.research.google.com/drive/1TkBoChaQ8jHDl9ksCLuewG-gJTjgRxfg)
+- Colab: [Open in Colab](https://colab.research.google.com/github/wispcarey/ML_for_IP_and_DA/blob/main/Demos/Filtering_Visualization_Doubling_Map.ipynb)
