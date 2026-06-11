@@ -4,6 +4,8 @@ This repository contains textbook-ready demo notebooks for *Machine Learning for
 
 The textbook arXiv page is <https://arxiv.org/abs/2410.10523>. Chapter and section references in this demo codebase are based on `[v2] Mon, 6 Oct 2025`.
 
+Some materials in this repository are based on the ML for IP and DA winter school in Amsterdam last year, available at <https://github.com/baptistar/MLforIPDA>.
+
 These notebooks may contain small mistakes. If you find an issue, please contact bhchen@caltech.edu.
 
 ## Colab Runtime Recommendation
